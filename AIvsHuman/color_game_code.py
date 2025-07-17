@@ -319,7 +319,7 @@ class Color_Game():
         if any(d < 5 for d in self.user_distances):
             self.winner_display.value = "<h2 style='text-align:center; font-size: 24px;'>User Wins!</h2>"
         elif any(d < 5 for d in self.bo_distances):
-            self.winner_display.value = "<h2 style='text-align:center; font-size: 24px;'>BO Wins!</h2>"
+            self.winner_display.value = "<h2 style='text-align:center; font-size: 24px;'>AI Wins! 🤖</h2>"
         else:
             self.winner_display.value = "<h2 style='text-align:center; font-size: 20px;'>Goal: < 5% Error before BO</h2>"
 
