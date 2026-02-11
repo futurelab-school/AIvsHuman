@@ -29,7 +29,7 @@ Run the cell below to get started!
 ## To run it on google colab
 ```python
   # Get the game from the repo
-  !pip install git+https://github.com/futurelab-school/AIvsHuman.git
+  !pip install git+https://github.com/futurelab-school/AIvsHuman-Color.git
 
   from AIvsHuman import Color_Game
   # Launch the Game
