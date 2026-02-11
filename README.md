@@ -35,3 +35,5 @@ Run the cell below to get started!
   # Launch the Game
   Color_Game().launch_game()
 ```
+
+[Launch in Google Colab ](https://colab.research.google.com/drive/1RXAaAFMR7oo8DhOtcNUZ3YASUA_4BR46?usp=sharing#scrollTo=ssjpdZ-Fxksg)
