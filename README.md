@@ -1,5 +1,6 @@
 # AIvsHuman
-This is for the color mixing game
+This is for the color mixing game \
+Written by: Austin Martin & Clara tamura
 
 # Rules
 ### How to Play
