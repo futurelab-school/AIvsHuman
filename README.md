@@ -27,8 +27,8 @@ Run the cell below to get started!
 
 ## To run it on google colab
 ``` # Get the game from the repo
-```[python] !pip install git+https://github.com/futurelab-school/AIvsHuman.git
-```
-```from AIvsHuman import Color_Game
-```# Launch the Game
-```Color_Game().launch_game()
+  [python] !pip install git+https://github.com/futurelab-school/AIvsHuman.git
+
+  from AIvsHuman import Color_Game
+  # Launch the Game
+  Color_Game().launch_game()
