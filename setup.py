@@ -6,9 +6,9 @@ setup(
     install_requires=[
         "numpy==1.26.4",   # if you must pin for Colab compatibility
         "pyDOE2",
-        "scipy",
-        "matplotlib",
-        "ipywidgets",
-        "ipython",
+        # "scipy",
+        # "matplotlib",
+        # "ipywidgets",
+        # "ipython",
     ],
 )
