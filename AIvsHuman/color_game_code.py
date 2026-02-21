@@ -5,11 +5,14 @@ import subprocess
 import sys
 
 # Install pyDOE if not already installed
-try:
-    import pyDOE
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "pyDOE"])
-    import pyDOE  # retry import after installing
+# try:
+#     import pyDOE
+# except ImportError:
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", "pyDOE"])
+#     import pyDOE  # retry import after installing
+
+import pyDOE2 as pyDOE
+from pyDOE2 import lhs
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,12 +26,14 @@ from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 from scipy.optimize import minimize
 from scipy.stats import norm
 
-try:
-    import pyDOE2 as pyDOE
-    from pyDOE2 import lhs
-except ImportError:
-    import pyDOE
-    from pyDOE import lhs
+# try:
+#     import pyDOE2 as pyDOE
+#     from pyDOE2 import lhs
+# except ImportError:
+#     import pyDOE
+#     from pyDOE import lhs
+
+
 
 import os
 
