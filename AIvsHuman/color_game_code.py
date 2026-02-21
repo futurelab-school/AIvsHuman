@@ -11,8 +11,8 @@ import sys
 #     subprocess.check_call([sys.executable, "-m", "pip", "install", "pyDOE"])
 #     import pyDOE  # retry import after installing
 
-import pyDOE2 as pyDOE
-from pyDOE2 import lhs
+import pyDOE3 as pyDOE
+from pyDOE3 import lhs
 
 import numpy as np
 import matplotlib.pyplot as plt
