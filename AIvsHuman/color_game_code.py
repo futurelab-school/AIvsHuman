@@ -11,6 +11,13 @@ import sys
 #     subprocess.check_call([sys.executable, "-m", "pip", "install", "pyDOE"])
 #     import pyDOE  # retry import after installing
 
+# try:
+#     import pyDOE2 as pyDOE
+#     from pyDOE2 import lhs
+# except ImportError:
+#     import pyDOE
+#     from pyDOE import lhs
+
 import pyDOE3 as pyDOE
 from pyDOE3 import lhs
 
@@ -26,12 +33,7 @@ from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 from scipy.optimize import minimize
 from scipy.stats import norm
 
-# try:
-#     import pyDOE2 as pyDOE
-#     from pyDOE2 import lhs
-# except ImportError:
-#     import pyDOE
-#     from pyDOE import lhs
+
 
 
 
